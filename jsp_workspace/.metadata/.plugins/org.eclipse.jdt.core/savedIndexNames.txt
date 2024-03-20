@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\JavaFullStack_JHD\jsp_workspace\.metadata\.plugins\org.eclipse.jdt.core

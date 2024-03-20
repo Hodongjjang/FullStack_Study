@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DBConnector.java&apos; to &apos;JspBoard/src/main/java/board.dao&apos;&#x0D;&#x0A;- Original project: &apos;chap07&apos;&#x0D;&#x0A;- Destination element: &apos;JspBoard/src/main/java/board.dao&apos;&#x0D;&#x0A;- Original element: &apos;chap07.dao.DBConnector.java&apos;" description="Copy compilation unit" destination="=JspBoard/src\/main\/java&lt;board.dao" element1="/src\/main\/java&lt;chap07.dao{DBConnector.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704691178739" units="1" version="1.0"/>
+</session>
