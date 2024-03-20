@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수동 리액트</title>
+</head>
+
+<body>
+
+    <!-- React는 root라는 id를 가진 div내부에 (Root DOM Container)
+        모든 페이지의 내용을 컴포넌트 단위로 추가하며 프로젝트를 진행한다 -->
+    <div id="root"></div>
+
+
+    <!-- React 문법 불러오기 -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="MyButton.js"></script>
+    <script src="MyList.js"></script>
+
+    <script>
+        // root를 선택해서 가져옴
+        const domContainer = document.querySelector('#root');
+        // root에 렌더링을 수행함 (컴포넌트를 화면에 그리는 작업)
+        ReactDOM.render([React.createElement(MyButton), React.createElement(MyList)], domContainer);
+    </script>
+</body>
+
+</html>

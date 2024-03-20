@@ -1,0 +1,19 @@
+ 05_Component Lifecycle.txt
+
+ 1. Mountiong
+
+   - 새로 생성된 엘리먼트가 최초로 화면에 출력되는 과정
+   - 해당 엘리먼트가 DOM에 삽입된 직후 (화면에 그여지기 직전) ComponentDidMount() 메서드가 호출된다 (최초 한번만!)
+   - ComponentDidMount() DOM트리의 정보가 필요한 초기화 작업을 진행하기 좋은 시점이다
+
+2. Updating
+  - 이미 생성된 엘리먼트가 다양한 원인들로 다시 그려지는 경우에 발생하는 것
+  - new props
+  - set State()
+  - forceUpdate()
+  - 화면을 갱신하기 위해 render() 및 DOM트리 삽입이 발생한 후에 ComponentDidUpdate() 메서드가 호출됨 
+
+3. Unmounting
+
+  - 해당 엘리먼트가 화면에 더 이상 표시되지 않게 되었을 때  ComponentWillUnmount() 메서드가 호출됨
+  - React.StricMode일때는 엘리먼트 마운트시 테스트 삼아 한번 언마운트를 진행한 후에 다시 마운트를 진행 한다 
